@@ -1,8 +1,8 @@
 import React from "react";
 import { Switch, Route} from "react-router-dom";
-import Inicio from "./page/inicio";
-import { ProductosList } from "./page/productos";
-import { ProductosDetalles } from "./page/productos/ProductosDetalles";
+import Inicio from "./Page/Inicio/index";
+import {ProductosList} from "./Page/Productos";
+import {ProductosDetalles} from "./Page/Productos/ProductoDetalles";
 
 export default function Page() {
   return (

@@ -1,5 +1,5 @@
 import React, { useContext} from "react";
-import { DataContext } from "context/DataProvider";
+import { DataProvider } from "../context/DataProvider";
 import { Link } from "react-router-dom";
 import Nike from "images/Nike.jpg";
 

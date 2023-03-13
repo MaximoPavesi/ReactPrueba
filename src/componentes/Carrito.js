@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import Card from "images/img02.jpg";
-import { DataContext } from "context/DataProvider";
+import { DataProvider } from "../context/DataProvider";
 
 export const Carrito = () => {
   const value = useContext(DataContext);
@@ -80,11 +80,10 @@ export const Carrito = () => {
               </div>
 							<div 
 							onClick={() => removeProducto(producto.id)} 
-							className="remove__item"
-							>
-                <box-icon name="trash" />
-              </div>
-            </div>
+							className="remove__item">
+                			<box-icon name="trash" />
+              				</div>
+            	</div>
 					))
 				};
 					

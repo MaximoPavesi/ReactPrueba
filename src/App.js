@@ -3,7 +3,7 @@ import {Header} from "./componentes/Header";
 import {Carrito} from "./componentes/Carrito";
 import {DataProvider} from './context/DataProvider';
 import { BrowserRouter as Router} from "react-router-dom";
-import {Pages} from "./componentes/Page";
+import Page from "./componentes/Page";
 import "boxicons";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Router>
       <Header />
       <Carrito />
-      <Pages />
+      <Page />
       </Router>
     </div>
     </DataProvider>
