@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.min.js";
 import CssBaseline from "@material-ui/core/CssBaseline";
 
 import Navbar from "./components/Navbar/Navbar";
@@ -12,7 +10,7 @@ import ItemDetailPage from "./pages/ItemDetailPage/ItemDetailPage";
 import Categories from "./pages/Categories/Categories";
 import Form from "./pages/Form/Form";
 
-import CartContext from "./contexts/cartContext";
+import CartContext from "./context/cartContext";
 
 function App() {
   const [cart, setCart] = useState([]);
