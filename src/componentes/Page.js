@@ -7,11 +7,9 @@ import {ProductosDetalles} from "./Page/Productos/ProductoDetalles";
 export default function Page() {
   return (
     <section>
-      <Switch>
 				<Route path="/" exact component={Inicio} />
 				<Route path="/productos" exact component={ProductosList} />
         <Route path="/producto/:id" exact component={ProductosDetalles} />
-			</Switch>
     </section>
   );
 }

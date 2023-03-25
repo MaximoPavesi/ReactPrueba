@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import Card from "images/img02.jpg";
-import { DataProvider } from "../context/DataProvider";
+import Card from "../images/img02.jpg";
+import { DataContext } from "../context/DataProvider";
 
 export const Carrito = () => {
   const value = useContext(DataContext);
