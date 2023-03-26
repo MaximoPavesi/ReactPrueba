@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import RemoveIcon from "@material-ui/icons/Remove";
-import AddIcon from "@material-ui/icons/Add";
 
 import "./ItemCount.scss";
 

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { GitHub, LinkedIn } from "@material-ui/icons";
 import "./Footer.scss";
 
 class Footer extends Component {

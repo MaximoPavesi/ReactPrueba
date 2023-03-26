@@ -1,8 +1,5 @@
 import React, { useEffect, useContext } from "react";
-import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import CartContext from "../../context/cartContext";
-
-import Badge from "@material-ui/core/Badge";
 
 const CartIcon = () => {
   const { cart, qnt, setQnt } = useContext(CartContext);

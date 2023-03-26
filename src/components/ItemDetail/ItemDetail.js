@@ -4,7 +4,6 @@ import Item from "../Item/Item";
 import CartContext from "../../context/cartContext";
 
 import "./ItemDetail.scss";
-import { Button } from "@material-ui/core";
 
 const ItemDetail = ({ product }) => {
   const { setCart, setQnt } = useContext(CartContext);
