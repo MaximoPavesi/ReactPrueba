@@ -11,7 +11,7 @@ se genera un id de orden para el usuario y en firebase se guarda la orden con lo
 **Tecnologías y librerías:**
 
 - Interfaz realizada con **ReactJS - Create React App**
-- Estilos con **Bootstrap**, **Material-UI** y preprocesador **Sass**
+- Estilos con **Bootstrap** y preprocesador **Sass**
 - Ruteo con **React Router Dom**
 - Backend con **Firebase**
 
