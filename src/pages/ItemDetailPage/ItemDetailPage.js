@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import { useParams } from "react-router-dom";
 import ItemCount from "../../components/ItemCount/ItemCount";
 import Loading from "../../components/Loading/Loading";
-import CartContext from "../../contexts/cartContext";
+import CartContext from "../../context/cartContext";
 import { getFirestore } from "../../firebase";
 
 import "./ItemDetailPage.scss";

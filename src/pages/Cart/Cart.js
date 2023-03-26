@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import Table from "../../components/Table/Table";
 import Checkout from "../../components/Checkout/Checkout";
-import CartContext from "../../contexts/cartContext";
+import CartContext from "../../context/cartContext";
 
 import "./Cart.scss";
 

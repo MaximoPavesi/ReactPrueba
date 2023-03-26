@@ -7,7 +7,7 @@ import DunkOfRed from "../assets/img06.jpg";
 import Nike03 from "../assets/img07.jpg";
 import AF1Blue from "../assets/img08.jpg";
 import AirMax from "../assets/img09.jpg";
-import DunkHigh from "../assets/img010.jpg";
+import DunkHigh from "../assets/img10.jpg";
 import Nike04 from "../assets/img011.jpg"
 import Logo from "../assets/inicio.jpg";
 import Banner01 from "../assets/Nike.jpg";
