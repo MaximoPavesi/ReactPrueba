@@ -23,7 +23,7 @@ function App() {
         <Router>
           <CssBaseline>
             <Navbar />
-            <Switch>
+            <Routes>
               <Route exact path="/">
                 <Home greeting={greeting} />
               </Route>
@@ -39,7 +39,7 @@ function App() {
               <Route path="/cart">
                 <Cart />
               </Route>
-            </Switch>
+            </Routes>
             <Footer />
           </CssBaseline>
         </Router>
