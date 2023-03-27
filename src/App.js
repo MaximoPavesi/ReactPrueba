@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
@@ -21,7 +21,6 @@ function App() {
     <div>
       <CartContext.Provider value={{ cart, setCart, qnt, setQnt }}>
         <Router>
-          <CssBaseline>
             <Navbar />
             <Routes>
               <Route exact path="/">
@@ -41,7 +40,6 @@ function App() {
               </Route>
             </Routes>
             <Footer />
-          </CssBaseline>
         </Router>
       </CartContext.Provider>
     </div>
