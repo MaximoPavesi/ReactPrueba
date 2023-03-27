@@ -1,8 +1,8 @@
 import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import CartContext from "../../context/cartContext";
-import { getFirestore } from "../../firebase";
-import * as firebase from "firebase/app";
+import { getFirestore } from "firebase/firestore";
+import { FirebaseApp } from "firebase/app";
 import "firebase/firestore";
 
 function Field({
@@ -141,7 +141,7 @@ const Form = () => {
             <h2 className="mt-5">¡Gracias por elegirnos!</h2>
             <h4 className="my-5">La compra se ha realizado exitosamente.</h4>
             <strong>El ID de tu compra es {orderId}</strong>
-            <p className="danger">Sport Store</p>
+            <p className="danger">Foot Goal</p>
             <Link className="btn btn-outline-primary m-3" to={`/`}>
               <strong>Ir a comprar</strong>
             </Link>

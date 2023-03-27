@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ItemDetailContainer from "../ItemDetailContainer/ItemDetailContainer";
 import Loading from "../Loading/Loading";
-import { getFirestore } from "../../firebase";
+import { getFirestore } from "firebase/firestore";
 import { Link } from "react-router-dom";
 
 import "./ItemList.scss";
