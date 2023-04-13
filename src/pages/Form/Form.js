@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import CartContext from "../../context/cartContext";
 import { getFirestore } from "firebase/firestore";
 import { FirebaseApp } from "firebase/app";
-import firebase from "firebase";
 
 function Field({
   name,
