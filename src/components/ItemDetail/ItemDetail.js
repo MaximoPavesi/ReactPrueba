@@ -65,7 +65,9 @@ const ItemDetail = ({ product }) => {
         onClick={handleClick}
         className="item-detail__btn"
       >
+        <button>
         Agregar al carrito {quantity}
+        </button>
       </Button>
     </div>
   );
