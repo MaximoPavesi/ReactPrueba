@@ -65,8 +65,6 @@ const Form = () => {
   const updateDataFirebase = async () => {
     const db = getFirestore();
     const itemsToUpdate = db.collection("items").where(
-      firebase.firestore.FieldPath.documentId(),
-      "in",
       cart.map((i) => i.id)
     );
 
@@ -113,7 +111,6 @@ const Form = () => {
     const newOrder = {
       userInfo,
       items,
-      date: firebase.firestore.Timestamp.fromDate(new Date()),
       total: totalPrice,
     };
 
