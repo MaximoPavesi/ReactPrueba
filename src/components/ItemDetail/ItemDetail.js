@@ -58,17 +58,10 @@ const ItemDetail = ({ product }) => {
         max={product.stock}
         setQuantity={setQuantity}
       />
-      <Button
-        variant="contained"
-        color="primary"
-        style={styleButtom}
-        onClick={handleClick}
-        className="item-detail__btn"
-      >
-        <button>
+        <button style={styleButtom} onClick={handleClick}
+        className="item-detail__btn">
         Agregar al carrito {quantity}
         </button>
-      </Button>
     </div>
   );
 };
